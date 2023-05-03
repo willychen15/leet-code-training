@@ -16,10 +16,10 @@ public class C0102_binarySearch {
     }
 
     /*
-    * sortedArray[]：要搜尋的陣列(已排序)
-    * target：要搜尋的目標
-    * sortedArray 裡存在要搜尋的 target，return 在 sortedArray 裡的 index，不存在則 return -1
-    * */
+     * sortedArray[]：要搜尋的陣列(已排序)
+     * target：要搜尋的目標
+     * sortedArray 裡存在要搜尋的 target，return 在 sortedArray 裡的 index，不存在則 return -1
+     * */
     public static int binarySearch(int[] sortedArray, int target) {
         int low = 0;
         int high = sortedArray.length - 1;
